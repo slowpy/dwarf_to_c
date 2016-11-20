@@ -105,8 +105,6 @@ class CGenerator(object):
     
     def visit_Typedef(self, n):
         s = ''
-        if n.name in['size_t','ssize_t','__uint8_t'^^^^
-        return
         if n.storage: s += ' '.join(n.storage) + ' '
         s += self._generate_type(n.type)
         return s
