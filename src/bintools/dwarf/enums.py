@@ -249,6 +249,7 @@ DW_LANG = {
     0x0008: 'Fortran90',
     0x0009: 'Pascal83',
     0x000a: 'Modula2',
+    0x000b: 'Java',
     0x8000: 'lo_user',
     0x8001: 'Mips_Assembler',
     0xffff: 'hi_user',
